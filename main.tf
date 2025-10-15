@@ -7,7 +7,7 @@ terraform {
 
 # Makes a fun pet-like name (two words)
 resource "random_pet" "name" {
-  length = 2
+  length = 3
 }
 
 # Writes a file on your computer with "Hello, <random name>!"
